@@ -28,3 +28,4 @@ D:\CODE\Sample\GrpcServer.Service\GrpcServer.Service\obj\Debug\net5.0\GrpcServer
 D:\CODE\Sample\GrpcServer.Service\GrpcServer.Service\obj\Debug\net5.0\ref\GrpcServer.Service.dll
 D:\CODE\Sample\GrpcServer.Service\GrpcServer.Service\obj\Debug\net5.0\GrpcServer.Service.pdb
 D:\CODE\Sample\GrpcServer.Service\GrpcServer.Service\obj\Debug\net5.0\GrpcServer.Service.genruntimeconfig.cache
+D:\CODE\Sample\GrpcServer.Service\GrpcServer.Service\obj\Debug\net5.0\GrpcServer.Service.csprojAssemblyReference.cache
