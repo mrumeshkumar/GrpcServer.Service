@@ -19,7 +19,8 @@ namespace GrpcServer.Service.Services
             ServerCallContext context)
         {
             var httpclient = _httpClientFactory.CreateClient();
-            string APIURL = $"https://api.openweathermap.org/data/2.5/weather?q={request.City}&<API KEY>&units={request.Units}";
+            // Generate you own api key and replace <APIKEY> section with yours one.
+            string APIURL = $"https://api.openweathermap.org/data/2.5/weather?q={request.City}&<APIKEY>&units={request.Units}";
             var responseText = await httpclient.GetStringAsync(APIURL);
             var temperatures = JsonSerializer.Deserialize<Temptatures>(responseText);
             return new WeatherResponse
